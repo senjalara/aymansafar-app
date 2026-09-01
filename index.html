@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Mobile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mobile-container">
+        <div class="top-section">
+            <video class="bg-video" autoplay loop muted playsinline>
+                <source src="assets/vidohead.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay"></div>
+
+            <div class="top-content">
+                <div class="header-row">
+                    <div class="profile-header">
+                        <img src="assets/aymansafar.jpg" alt="Foto Profil Mr. Ayman Safar" class="profile-pic">
+                        <h1 class="profile-name">Mr. Ayman Safar</h1>
+                    </div>
+                    
+                    <div class="widget-container tradingview-widget-container">
+                        <div class="tradingview-widget-container__widget"></div>
+                        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+                        {
+                        "symbols": [
+                            {"proName": "FOREXCOM:SPXUSD", "title": "S&P 500"},
+                            {"proName": "FOREXCOM:NSXUSD", "title": "US 100"},
+                            {"proName": "FX_IDC:EURUSD", "title": "EUR/USD"},
+                            {"proName": "BITSTAMP:BTCUSD", "title": "Bitcoin"},
+                            {"proName": "BITSTAMP:ETHUSD", "title": "Ethereum"},
+                            {"proName": "OANDA:XAUUSD", "title": "Gold"}
+                        ],
+                        "showSymbolLogo": true,
+                        "isTransparent": true,
+                        "displayMode": "adaptive",
+                        "colorTheme": "dark",
+                        "locale": "id"
+                        }
+                        </script>
+                    </div>
+                </div>
+
+                <div class="instruction-text" style="font-family: 'Cairo', sans-serif; direction: rtl;">
+                    <h2 class="title" style="color: #FFD700; font-weight: 800; text-shadow: 0 2px 8px rgba(255, 215, 0, 0.3);">اقرأ الدليل الكامل أدناه</h2>
+                    <p class="subtitle" style="color: #cbd5e1; font-weight: 600;">انقر على الزر لعرض المزيد من التفاصيل</p>
+                </div>
+
+                <div class="button-grid">
+                    <button class="menu-btn active" data-target="tentang-kami">من نحن</button>
+                    <button class="menu-btn" data-target="cara-pesan">كيفية الاستثمار</button>
+                    <button class="menu-btn" data-target="form-daftar">نموذج التسجيل</button>
+                    <button class="menu-btn" data-target="cek-produk">رأس المال والأرباح</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-section">
+            <!-- Tentang Kami Section (Default) -->
+            <div class="content-panel" id="tentang-kami">
+                <div class="arabic-premium-card">
+                    <h3 class="panel-title">من نحن</h3>
+                    <p>تعتبر Strategic <span class="crypto-highlight">CRYPTO</span> Investment خدمة استثمارية في الأصول الرقمية تعتمد على <span class="crypto-highlight">USDT</span> و <span class="crypto-highlight">BITCOIN</span>، وتُدار باحترافية بواسطة فريق من الخبراء ذوي سجل حافل بالخبرة والموثوقية.</p>
+                    <p>لقد أثبت أداؤنا من قبل مئات المستثمرين الذين انضموا إلينا وحققوا أرباحهم بشكل متسق ومستدام.</p>
+                    <p>بفضل خبرة تزيد عن 11 عاماً في عالم التداول وتحليل السوق، نحن هنا لفتح آفاق لكل من يرغب في النمو واستغلال فرص الاستثمار من خلال خدمات التداول التي نقدمها.</p>
+                    <p style="font-weight: 700; color: #f8fafc;">انضم إلينا الآن وابدأ رحلتك الاستثمارية مع Strategic <span class="crypto-highlight">CRYPTO</span> Investment للاستفادة من الفرص المتاحة في عالم الأصول الرقمية وبناء مستقبل مالي أفضل.</p>
+                </div>
+            </div>
+
+            <!-- Cara Membuat Pesanan Section -->
+            <div class="content-panel" id="cara-pesan" style="display: none;">
+                <div class="arabic-premium-card">
+                    <h3 class="panel-title">كيفية الاستثمار</h3>
+                    <p>الاستفادة من فرص الاستثمار في Strategic <span class="crypto-highlight">CRYPTO</span> Investment أمر في غاية السهولة. ما عليك سوى اتباع الخطوات التالية:</p>
+                    
+                    <ol>
+                        <li>
+                            <strong>تجهيز رأس المال المبدئي</strong><br>
+                            <span style="display: block; margin-top: 5px;">يجب على المستثمرين الراغبين في بدء الاستثمار واستغلال الفرص معنا أن يمتلكوا رصيداً لا يقل عن 100 دولار أمريكي كأدنى حد لرأس المال الأولي.</span>
+                        </li>
+                        <li>
+                            <strong>إكمال نموذج التسجيل</strong><br>
+                            <span style="display: block; margin-top: 5px;">قم بتعبئة وإرسال استمارة التسجيل التي أعددناها لك في صفحة استمارة التسجيل. يرجى التأكد من أن جميع البيانات المقدمة صحيحة وكاملة.</span>
+                        </li>
+                        <li>
+                            <strong>استخدام حساب مدعوم</strong><br>
+                            <span style="display: block; margin-top: 5px;">يجب على المستثمرين المحتملين امتلاك أحد الحسابات التي تدعم المعاملات بعملة الدولار الأمريكي (USD)، مثل Wish، أو حساب تداول الأصول المشفرة الذي يدعم العملة المستقرة USDT، مثل Binance.</span>
+                        </li>
+                    </ol>
+                    
+                    <p style="font-weight: 700; color: #f8fafc;">بمجرد استيفاء هذه الخطوات الثلاث، يمكن للمستثمرين المحتملين المضي قدماً في عملية التسجيل واتباع مراحل الاستثمار المحددة.</p>
+                    
+                    <hr>
+                    
+                    <h3 class="panel-title">كيف يعمل نظامنا؟</h3>
+                    <p>تم تصميم نظامنا ليكون سهل الفهم والاستخدام، بحيث يمكن لجميع فئات المستثمرين الانضمام إليه، سواء كانوا من ذوي الخبرة أو المبتدئين.</p>
+                    <p>في نظامنا، يكفي أن يقوم المستثمر بإيداع رأس المال ليتم إدارته وتداوله بواسطة فريقنا المحترف. لا يحتاج المستثمر إلى القيام بأي عمليات تداول مباشرة، بل عليه فقط انتظار عملية التداول التي تستمر على مدار 24 ساعة.</p>
+                    <p>بعد انتهاء جلسة التداول، سيتم إضافة عوائد الاستثمار إلى حسابك بناءً على نتائج باقة الاستثمار التي تم اختيارها. على سبيل المثال: عند استثمار <span class="crypto-highlight">100 USDT</span> وتحقيق ربح قدره <span class="crypto-highlight">1,400 USDT</span>، سيصبح إجمالي رصيد حسابك <span class="crypto-highlight">1,500 USDT</span>. يمكن سحب هذا الرصيد مباشرة إلى حسابك البنكي عبر لوحة تحكم حساب الاستثمار المسجل في نظامنا.</p>
+                    
+                    <hr>
+                    
+                    <h3 class="panel-title">آلية تقاسم الأرباح</h3>
+                    <p>في أي عمل تجاري، التعاون الناجح هو الذي يعود بالنفع على كلا الطرفين. لذلك، نطبق آلية تقاسم الأرباح حيث يتم توزيع عوائد التداول وفقاً للشروط التي وضعناها.</p>
+                    <p>مثال: استثمار بقيمة <span class="crypto-highlight">100 USDT</span> يحقق ربحاً قدره <span class="crypto-highlight">1,400 USDT</span>. وبالتالي، يصبح إجمالي العائد المسجل في لوحة تحكم حساب المستثمر <span class="crypto-highlight">1,500 USDT</span>، شاملاً رأس المال المستثمر.</p>
+                    <p style="margin-bottom: 10px;">من إجمالي العائد البالغ 1,500 USDT:</p>
+                    <ul>
+                        <li><strong>يحصل المستثمر على 80%:</strong> 1,200 USDT</li>
+                        <li><strong>يحصل فريق التداول على 20%:</strong> 300 USDT كتعويض عن إدارة الحساب ونشاط التداول.</li>
+                    </ul>
+                    <p style="font-weight: 700; color: #f8fafc;">هذا هو الشرح الموجز لآلية تقاسم الأرباح التي نعتمدها. نأمل من خلال هذا التعاون الشفاف والمتبادل المنفعة أن نتمكن من النمو معاً وتحقيق أهدافنا المالية المشتركة.</p>
+                </div>
+            </div>
+
+            <!-- Registration Form Section -->
+            <div class="content-panel" id="form-daftar" style="display: none;">
+                <h3 class="panel-title">نموذج تسجيل المستثمر</h3>
+                <p class="panel-text" style="text-align: center; margin-top: -10px; margin-bottom: 20px;">املأ نموذج التسجيل وأرسله لبدء عملية الاستثمار معنا.</p>
+                <form id="registrationForm">
+                    <input type="text" id="name" placeholder="الاسم الكامل" required class="form-input" dir="rtl">
+                    <input type="text" id="address" placeholder="العنوان" required class="form-input" dir="rtl">
+                    <input type="email" id="email" placeholder="البريد الإلكتروني" required class="form-input" dir="rtl">
+                    <input type="tel" id="phone" placeholder="رقم الهاتف" required class="form-input" dir="rtl">
+                    <div class="input-group">
+                        <input type="text" id="investment_currency" value="USDT / USD" readonly class="form-input currency-label">
+                        <select id="investment_amount" required class="form-input amount-select" dir="rtl">
+                            <option value="" selected>اختر المبلغ</option>
+                            <option value="100">100</option>
+                            <option value="200">200</option>
+                            <option value="300">300</option>
+                            <option value="400">400</option>
+                            <option value="500">500</option>
+                            <option value="600">600</option>
+                            <option value="700">700</option>
+                            <option value="800">800</option>
+                            <option value="900">900</option>
+                            <option value="1000">1000</option>
+                        </select>
+                    </div>
+                    <input type="text" id="country" placeholder="الدولة" required class="form-input" dir="rtl">
+                    <button type="submit" class="submit-btn" id="submitBtn">
+                        <span class="btn-text">إرسال التسجيل</span>
+                        <div class="spinner" id="spinner" style="display:none; width: 16px; height: 16px; border: 2px solid rgba(255,255,255,0.4); border-radius: 50%; border-top-color: white; animation: spin 1s linear infinite;"></div>
+                    </button>
+                    <p style="margin-top: 15px; font-size: 0.9rem; color: #cbd5e1; text-align: center; direction: rtl; line-height: 1.5;">
+                        يرجى التأكد من التواصل مع المسؤول في مجموعة تيليجرام بعد إرسال النموذج، لكي تتم معالجة طلب التسجيل الخاص بك على الفور.
+                    </p>
+                    <div style="background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 215, 0, 0.2); border-radius: 12px; padding: 12px 15px; margin-top: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                        <p style="margin: 0; font-size: 0.85rem; color: #94a3b8; text-align: center; direction: rtl; line-height: 1.6;">
+                            <strong style="color: #FFD700;">ملاحظة:</strong> قيمة <span class="crypto-highlight">100 USDT</span> تعادل تقريباً <span class="crypto-highlight">100 USD</span>، والفرق بينهما طفيف جداً.
+                        </p>
+                    </div>
+                    <div id="statusMessage" class="status-message" style="display: none;"></div>
+                </form>
+            </div>
+
+            <!-- Cek Produk & Harga Section -->
+            <div class="content-panel" id="cek-produk" style="display: none;">
+                <div class="arabic-premium-card">
+                    <h3 class="panel-title">فيما يلي خيارات باقات الاستثمار التي نوصي بها لك</h3>
+                    
+                    <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 215, 0, 0.4); border-radius: 16px; padding: 20px; margin-top: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+                        <h4 style="color: #FFD700; font-size: 1.15rem; margin-bottom: 15px; font-weight: 800; text-align: center; text-shadow: 0 2px 8px rgba(255, 215, 0, 0.4);"><img src="assets/tramaster.png" alt="Logo" style="width: 38px; height: 38px; vertical-align: middle; border-radius: 50%; margin-left: 8px;"> الباقة الفضية <img src="assets/trademas.png" alt="Logo" style="width: 38px; height: 38px; vertical-align: middle; border-radius: 50%; margin-right: 8px;"></h4>
+                        
+                        <div style="display: flex; flex-direction: column; gap: 12px;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(0,0,0,0.3); padding: 12px 15px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); font-size: 0.95rem;">
+                                <span style="font-weight: 600; color: #cbd5e1;">استثمار <span class="crypto-highlight">100 USDT</span></span>
+                                <span style="color: #FFD700; margin: 0 10px; font-size: 0.9rem;">&larr;</span>
+                                <span style="color: #22c55e; font-weight: 800;">ربح 1,400 USDT</span>
+                            </div>
+                            
+                            <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(0,0,0,0.3); padding: 12px 15px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); font-size: 0.95rem;">
+                                <span style="font-weight: 600; color: #cbd5e1;">استثمار <span class="crypto-highlight">200 USDT</span></span>
+                                <span style="color: #FFD700; margin: 0 10px; font-size: 0.9rem;">&larr;</span>
+                                <span style="color: #22c55e; font-weight: 800;">ربح 2,800 USDT</span>
+                            </div>
+                            
+                            <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(0,0,0,0.3); padding: 12px 15px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); font-size: 0.95rem;">
+                                <span style="font-weight: 600; color: #cbd5e1;">استثمار <span class="crypto-highlight">300 USDT</span></span>
+                                <span style="color: #FFD700; margin: 0 10px; font-size: 0.9rem;">&larr;</span>
+                                <span style="color: #22c55e; font-weight: 800;">ربح 4,200 USDT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 215, 0, 0.4); border-radius: 16px; padding: 20px; margin-top: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+                        <h4 style="color: #FFD700; font-size: 1.15rem; margin-bottom: 15px; font-weight: 800; text-align: center; text-shadow: 0 2px 8px rgba(255, 215, 0, 0.4);"><img src="assets/tramaster.png" alt="Logo" style="width: 38px; height: 38px; vertical-align: middle; border-radius: 50%; margin-left: 8px;"> الباقة الذهبية <img src="assets/trademas.png" alt="Logo" style="width: 38px; height: 38px; vertical-align: middle; border-radius: 50%; margin-right: 8px;"></h4>
+                        
+                        <div style="display: flex; flex-direction: column; gap: 12px;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(0,0,0,0.3); padding: 12px 15px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); font-size: 0.95rem;">
+                                <span style="font-weight: 600; color: #cbd5e1;">استثمار <span class="crypto-highlight">400 USDT</span></span>
+                                <span style="color: #FFD700; margin: 0 10px; font-size: 0.9rem;">&larr;</span>
+                                <span style="color: #22c55e; font-weight: 800;">ربح 5,600 USDT</span>
+                            </div>
+                            
+                            <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(0,0,0,0.3); padding: 12px 15px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); font-size: 0.95rem;">
+                                <span style="font-weight: 600; color: #cbd5e1;">استثمار <span class="crypto-highlight">500 USDT</span></span>
+                                <span style="color: #FFD700; margin: 0 10px; font-size: 0.9rem;">&larr;</span>
+                                <span style="color: #22c55e; font-weight: 800;">ربح 7,000 USDT</span>
+                            </div>
+                            
+                            <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(0,0,0,0.3); padding: 12px 15px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); font-size: 0.95rem;">
+                                <span style="font-weight: 600; color: #cbd5e1;">استثمار <span class="crypto-highlight">600 USDT</span></span>
+                                <span style="color: #FFD700; margin: 0 10px; font-size: 0.9rem;">&larr;</span>
+                                <span style="color: #22c55e; font-weight: 800;">ربح 8,400 USDT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 215, 0, 0.4); border-radius: 16px; padding: 20px; margin-top: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+                        <h4 style="color: #FFD700; font-size: 1.15rem; margin-bottom: 15px; font-weight: 800; text-align: center; text-shadow: 0 2px 8px rgba(255, 215, 0, 0.4);"><img src="assets/tramaster.png" alt="Logo" style="width: 38px; height: 38px; vertical-align: middle; border-radius: 50%; margin-left: 8px;"> الباقة البلاتينية <img src="assets/trademas.png" alt="Logo" style="width: 38px; height: 38px; vertical-align: middle; border-radius: 50%; margin-right: 8px;"></h4>
+                        
+                        <div style="display: flex; flex-direction: column; gap: 12px;">
+                            <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(0,0,0,0.3); padding: 12px 15px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); font-size: 0.95rem;">
+                                <span style="font-weight: 600; color: #cbd5e1;">استثمار <span class="crypto-highlight">700 USDT</span></span>
+                                <span style="color: #FFD700; margin: 0 10px; font-size: 0.9rem;">&larr;</span>
+                                <span style="color: #22c55e; font-weight: 800;">ربح 9,800 USDT</span>
+                            </div>
+                            
+                            <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(0,0,0,0.3); padding: 12px 15px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); font-size: 0.95rem;">
+                                <span style="font-weight: 600; color: #cbd5e1;">استثمار <span class="crypto-highlight">800 USDT</span></span>
+                                <span style="color: #FFD700; margin: 0 10px; font-size: 0.9rem;">&larr;</span>
+                                <span style="color: #22c55e; font-weight: 800;">ربح 11,200 USDT</span>
+                            </div>
+                            
+                            <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(0,0,0,0.3); padding: 12px 15px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); font-size: 0.95rem;">
+                                <span style="font-weight: 600; color: #cbd5e1;">استثمار <span class="crypto-highlight">900 USDT</span></span>
+                                <span style="color: #FFD700; margin: 0 10px; font-size: 0.9rem;">&larr;</span>
+                                <span style="color: #22c55e; font-weight: 800;">ربح 12,600 USDT</span>
+                            </div>
+
+                            <div style="display: flex; justify-content: space-between; align-items: center; background: rgba(0,0,0,0.3); padding: 12px 15px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); font-size: 0.95rem;">
+                                <span style="font-weight: 600; color: #cbd5e1;">استثمار <span class="crypto-highlight">1000 USDT</span></span>
+                                <span style="color: #FFD700; margin: 0 10px; font-size: 0.9rem;">&larr;</span>
+                                <span style="color: #22c55e; font-weight: 800;">ربح 14,000 USDT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: 50px; direction: rtl; padding-right: 15px; padding-left: 15px;">
+                        <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+                            <img src="assets/tramaster.png" alt="Icon" style="width: 24px; height: 24px; border-radius: 50%; opacity: 0.8; filter: drop-shadow(0 0 5px rgba(255,215,0,0.5));">
+                            <div style="height: 1px; background: linear-gradient(to left, rgba(255,215,0,0.8), transparent); width: 60px;"></div>
+                        </div>
+                        <h3 style="color: #FFD700; font-size: 1.1rem; font-weight: 800; margin: 0; text-shadow: 0 2px 10px rgba(255, 215, 0, 0.5); line-height: 1.6; text-align: right;">
+                            دليل الإيداع في الحساب وسحب أرباح التداول
+                        </h3>
+                        <p style="color: #cbd5e1; font-size: 0.95rem; margin-top: 15px; margin-bottom: 0; line-height: 1.7; text-align: justify;">
+                            يُشترط على المستثمرين الراغبين في الاستثمار في خدمات Strategic <span class="crypto-highlight">CRYPTO</span> Investment امتلاك حساب يدعم الاحتفاظ بعملة الدولار الأمريكي (USD) مثل WISH، أو حساب أصول مشفرة يدعم الاحتفاظ بالعملة المستقرة (USDT) مثل منصة Binance.
+                        </p>
+                        <p style="color: #f8fafc; font-size: 0.95rem; margin-top: 10px; margin-bottom: 0; line-height: 1.7; font-weight: 600; text-align: justify;">
+                            إذا كنت تمتلك أحد الحسابات المذكورة أعلاه، يمكنك بالفعل الانضمام والبدء في الاستثمار معنا.
+                        </p>
+                        <!-- Highlighted Info Box -->
+                        <div style="margin-top: 25px; background: rgba(255, 255, 255, 0.03); border-right: 4px solid #FFD700; border-radius: 12px; padding: 20px 25px; position: relative; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                            <div style="position: absolute; top: -50%; right: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(255,215,0,0.05) 0%, transparent 60%); pointer-events: none;"></div>
+                            
+                            <div style="display: flex; gap: 15px; align-items: flex-start; direction: rtl; position: relative; z-index: 1;">
+                                <div style="flex-shrink: 0; margin-top: 5px;">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" style="fill: #FFD700; filter: drop-shadow(0 0 5px rgba(255,215,0,0.5));">
+                                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p style="color: #cbd5e1; font-size: 0.95rem; margin: 0 0 10px 0; line-height: 1.7; text-align: justify;">
+                                        <strong style="color: #f8fafc;">دليل الإيداع وسحب الأرباح</strong> سيتم شرحه وتوجيهه مباشرة من قبل مسؤولي مجموعة تيليجرام الخاصة بنا.
+                                    </p>
+                                    <p style="color: #cbd5e1; font-size: 0.95rem; margin: 0; line-height: 1.7; text-align: justify;">
+                                        إذا كانت لديك أي أسئلة أو كنت بحاجة إلى مزيد من المعلومات، يرجى التواصل مع مسؤولينا.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <footer class="app-footer">
+            <p>&copy; 2026 Strategic <span class="crypto-highlight">CRYPTO</span> Investment. All rights reserved.</p>
+        </footer>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
