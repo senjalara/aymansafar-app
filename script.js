@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = await response.json();
 
             if (data.ok) {
-                showStatus('Registration submitted successfully! Thank you.', 'success');
+                document.getElementById('successModal').style.display = 'flex';
                 form.reset();
             } else {
                 showStatus(`Failed to submit: ${data.description}`, 'error');
@@ -85,5 +85,13 @@ document.addEventListener('DOMContentLoaded', () => {
         statusMessage.textContent = text;
         statusMessage.style.display = 'block';
         statusMessage.style.color = type === 'success' ? '#10b981' : '#ef4444';
+    }
+
+    // Modal Close Logic
+    const closeModalTopBtn = document.getElementById('closeModalTopBtn');
+    if (closeModalTopBtn) {
+        closeModalTopBtn.addEventListener('click', () => {
+            document.getElementById('successModal').style.display = 'none';
+        });
     }
 });
