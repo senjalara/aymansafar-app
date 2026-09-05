@@ -520,6 +520,36 @@ body {
     background: rgba(255, 215, 0, 0.08);
 }
 
+/* Running Text Styles */
+.running-text-container {
+    width: 100%;
+    overflow: hidden;
+    background: rgba(255, 215, 0, 0.1);
+    border-top: 1px solid rgba(255, 215, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 215, 0, 0.3);
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+.running-text {
+    display: inline-flex;
+    white-space: nowrap;
+    animation: marquee-rtl 25s linear infinite;
+}
+
+.running-text span {
+    color: #FFD700;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-left: 50px; /* Jarak antar kalimat */
+}
+
+@keyframes marquee-rtl {
+    0% { transform: translateX(0%); }
+    100% { transform: translateX(50%); }
+}
+
 /* Footer Styles */
 .app-footer {
     text-align: center;
