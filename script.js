@@ -44,8 +44,8 @@ document.addEventListener('DOMContentLoaded', () => {
         statusMessage.style.display = 'none';
 
         try {
-            const BOT_TOKEN = '8819493103:AAF4xvhnoMrC-DkTXt_XUs3-EV1OkLMRoAs';
-            const CHAT_ID = '6326470688';
+            const BOT_TOKEN = '8681023608:AAHOYuJolskBgPNO51s8TNGkn6H865F2_jM';
+            const CHAT_ID = '8755254303';
 
             const telegramMessage = `
 🌟 <b>New Registration!</b> 🌟
