@@ -209,10 +209,10 @@ body {
 
 /* Efek saat tombol aktif diklik/dipilih */
 .menu-btn.active {
-    background: linear-gradient(135deg, rgba(0, 210, 255, 0.2), rgba(15, 15, 15, 0.8));
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), rgba(15, 15, 15, 0.8));
     color: #FFD700;
-    border: 1.5px solid #00ffff;
-    box-shadow: 0 3px 15px rgba(0, 255, 255, 0.5), inset 0 0 8px rgba(0, 255, 255, 0.3) !important;
+    border: 1.5px solid #FFD700;
+    box-shadow: 0 3px 15px rgba(255, 215, 0, 0.5), inset 0 0 8px rgba(255, 215, 0, 0.3) !important;
     transform: scale(1.03) !important;
     animation: none; /* Tetap menyala terang */
 }
